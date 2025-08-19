@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
+const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_CONTACT_SCRIPT_URL;
 
 interface ContactData {
   name: string;

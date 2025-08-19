@@ -1,5 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -27,11 +28,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-[#d4af37] flex-shrink-0" />
-                <span className="text-gray-300">(555) 123-4567</span>
+                <span className="text-gray-300">(304) 303-9843</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-[#d4af37] flex-shrink-0" />
-                <span className="text-gray-300">sarah@mitchelllaw.com</span>
+                <span className="text-gray-300">rofilate007@gmail.com</span>
               </div>
             </div>
           </div>
@@ -40,11 +41,9 @@ const Footer = () => {
         <Separator className="my-8 bg-gray-600" />
 
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>&copy; 2024 James Hollet, Attorney at Law. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} James Hollet, Attorney at Law. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-[#d4af37] transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-[#d4af37] transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-[#d4af37] transition-colors">Professional Disclaimer</a>
+            <Link href="/privacy" className="hover:text-[#d4af37] transition-colors">Privacy Policy</Link>
           </div>
         </div>
       </div>
