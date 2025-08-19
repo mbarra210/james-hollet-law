@@ -9,10 +9,10 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Practice Areas', href: '#practice' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Home', href: '/#home' },
+    { label: 'About', href: '/#about' },
+    { label: 'Practice Areas', href: '/#practice' },
+    { label: 'Contact', href: '/#contact' }
   ];
 
   return (
