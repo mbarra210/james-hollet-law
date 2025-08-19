@@ -35,7 +35,7 @@ const PracticeAreas = () => {
     },
     {
       icon: TrendingUp,
-      title: "Load and Investment",
+      title: "Loan and Investment",
       description: "Specialized legal guidance for loan agreements, investment structures, securities compliance, and financial regulatory matters."
     }
   ];
